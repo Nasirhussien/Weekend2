@@ -1,4 +1,4 @@
-$(document).ready(onReady)()
+$(document).ready(onReady)
 
 function onReady() {
     console.log('jquery working')

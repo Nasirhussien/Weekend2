@@ -7,8 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static('server/public'));
 
+app.get('/calculate', generateRoute)
 
 console.log('starting up the server');
-
-
 
