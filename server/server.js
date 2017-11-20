@@ -12,17 +12,3 @@ console.log('starting up the server');
 
 
 
-app.listen(port, function(){
-    console.log('port working on', port);
-
-
-app.use('/calculate', generateRoute);
-});
-
-app.post('/calculate', function (req,res) {
-    
-    console.log('user calc route was hit')
-    
-  
-}) 
-
